@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Movies Seat reservation">
+    <meta name="author" content="Ghassen Ben Ali">
+   <link rel="stylesheet" href="style2.css"> 
+    <title>Latest Movies</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <img src="logo.png" class="logo">
+        <nav class="nav">              
+            <select class="nav-comp" id="liste" onchange="display_Img()">
+                <option value="none">Select a movie</option>
+                <option value="Openhimmer" >Openhimmer</option>
+                <option value="Barbie" >Barbie</option>
+                <option value="TheMeg2" >The Meg 2</option>
+            </select>
+            
+        </nav>
+
+       <main  class="main" id="main">
+        <img src="none.jpg" class="movie_poster">
+       </main>
+
+        <footer class="footer">
+            <img src="popcorne.png" class="pop">
+           <a href="Get a seat.html"><button id="btn">Reserve</button></a>
+        </footer>
+    </div>
+
+    <script src="indexcode.js"></script>
+</body>
+</html>

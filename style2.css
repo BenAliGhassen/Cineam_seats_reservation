@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.nav{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+select{
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 15px;
+    position: relative;
+    right: -15px;
+    margin: 0px 10px 20px 10px;
+}
+.nav-comp{
+    position: relative;
+    display: inline-block;
+}
+.salle{
+    color: white;
+    margin-left: 15px;
+}
+.logo{
+    
+    width: 15vw;
+    height: 15vh;
+    left: 15px;
+}
+.pop{
+    position: absolute;
+    right: -25px;
+    top: -14.5vh;
+    z-index: -1;
+}
+#main{
+    text-align: center;
+    min-height: 25vh;
+}
+.movie_poster{
+    border-radius: 5px;
+    box-shadow: 1px 1px  5px 2px  black;
+    height :200px;
+    width :350px;
+}
+
+.footer{
+    position: relative;
+    top: 5vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    background-color: rgb(69, 69, 69);
+    width: 70vw;
+    height: 90vh;
+    top: 5px;
+    border-bottom-left-radius: 150px;
+    z-index: 0;
+}
+
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(67, 67, 232);
+    color: white;
+    left: 45%;
+    top: 25vh;
+    visibility: hidden;
+}
+a{
+    text-decoration: none;
+}
+@media(max-width:774px){
+    .container{
+        z-index: 0;
+       height: 75vh;
+    }
+    .logo{
+        width: 25vw;
+        height: 10vh;
+    }
+    .main{
+        position: relative;
+        top: 8vh;
+    }
+
+.pop{
+    width: 250px;
+    height: 45vh;
+    right: -15vw;
+    top: -23vh;
+}
+select{
+    width: 100px;
+    margin: 0;
+}
+
+.footer{
+    position: relative;
+    top: 20vh;
+}
+
+
+.movie_poster{
+    width: 150px;
+    height: 230px;
+   
+}
+#btn{
+    width: 80px;
+    top: -6vh;
+    left: 37%;
+}
+}
